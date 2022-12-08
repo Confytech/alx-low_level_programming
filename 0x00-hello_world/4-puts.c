@@ -1,11 +1,14 @@
-include <stdio.h> 
+include <main.h>
+
 /**
- * main - Entry point
- * Return: Wleays 0 (success)
+ * main - Entry Point
+ * Return: Always 0 (success)
  */
 
-int mwin (void)
+int main (void)
 {
 	puts ("\" Programming is like building a multilingual puzzle")
-		return (0)
+		return (0);
+
+
 }
