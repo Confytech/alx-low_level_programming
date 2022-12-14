@@ -1,4 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HOLBERTON
+#define HOLBERTON
 
 int _putchar(char);
