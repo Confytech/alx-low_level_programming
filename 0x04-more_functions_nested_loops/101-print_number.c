@@ -5,7 +5,7 @@
  * Return:void
  */
 
-void print_number(int n);
+void print_number(int n)
 {
 	unsigned int x;
 
@@ -13,9 +13,9 @@ void print_number(int n);
 	if (n < 0)
 	{
 		_putchar(45);
-		x = -n :
+		x = -n;
 	}
-	if (x / 10)
+	if (xx / 10)
 		print_number(x / 10);
 	_putchar((x % 10) + '0');
 }
