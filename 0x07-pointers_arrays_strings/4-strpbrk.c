@@ -1,11 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strpbrk - search a string for any of a set of bytes
  * @s: source string
  * @accept: accepted characters
  *
- * Return: the string since the first found accepted character
+ * Return: a pointer to the byte in s that matches one of
+ * the bytes in accept, or NULL if no such byte is found
  */
 char *_strpbrk(char *s, char *accept)
 {
