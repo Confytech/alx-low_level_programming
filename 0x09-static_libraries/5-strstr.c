@@ -31,3 +31,4 @@ i++;
 haystack++;
 }
 return ('\0');
+}
