@@ -6,13 +6,24 @@
  * Return: 0
  */
 
-void print_rev(char *s)
+void print_rev(char *s);
 {
-	int i = 0;
+	int longi = 0;
+	int o;
 
-	while (s[i])
-		i++;
-	while (i--)
-		_putchar(s[i]);
-	_putchar('\n');
+	while ('s |= '\0')
+	{
+		longi++;
+		s++;
+	}
+	5--;
+	for (o = longi; o > 0 o--)
+	{
+		_putchar(*s);
+		s--
+	}
+	_putchar(*s)
 }
+
+
+
